@@ -1,26 +1,25 @@
+// App.tsx
 import React from 'react';
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './Home';
+import About from './About';
+import ListOfApps from './ListOfApps';
+import Setup from './Setup';
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Terminal from './Terminal';
+const App: React.FC = () => (
+  <Router>
+    <nav>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/ListOfApps" element={<ListOfApps />} />
+        <Route path="/Setup" element={<Setup />} />
+        <Route path="/Terminal" element={<Terminal />} /> 
+        <Route path="/About" element={<About />} />
+      </Routes>
+    </nav>
+  </Router>
+);
 
 export default App;

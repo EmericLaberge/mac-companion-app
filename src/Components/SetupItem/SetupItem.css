@@ -1,0 +1,25 @@
+.setup-item {
+  margin: 3% 3% ;
+  padding:3% 3%;
+  border-radius: 50px;
+  border: white solid 2px;
+  
+}
+
+.setup-item-title {
+  font-size: 3rem;
+  border-bottom: 1px solid white;
+
+}
+
+.setup-item-subsection {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+margin-bottom: 1rem;
+}
+
+.setup-item-description {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}

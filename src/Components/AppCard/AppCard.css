@@ -1,0 +1,74 @@
+.app-card {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  border: 1px solid;
+  border-color: lightgray;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px ;
+}
+
+.app-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  border-right: 1px solid #666;
+  padding-right: 20px;
+}
+
+.app-name {
+  font-size: 3em;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.app-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.app-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 20px;
+  flex: 1;
+}
+
+.app-description-container {
+  flex: 1;
+}
+
+.app-description-title{
+  font-size: 1.5em;
+  color: #bdb7b7;
+  margin-bottom: 10px;
+}
+
+.app-description {
+  font-size: 1.7em;
+  color: white;
+  margin-top: 5% ;
+  margin-bottom: 5%;
+}
+
+.app-link {
+  font-size: 1.6em;
+  color: lightgray;
+  text-decoration: none;
+  border: 1px solid #414040;
+  border-radius: 5px;
+  padding: 10px 20px;
+  align-self: center;
+  margin-top: 10px;
+}
+
+.app-link:hover {
+  background-color: #333;
+  color: #fff;
+}
