@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/mac-app-companion/static/css/main.7b827f1f.css",
+    "main.js": "/mac-app-companion/static/js/main.e4df58cd.js",
+    "static/js/787.d0bc3496.chunk.js": "/mac-app-companion/static/js/787.d0bc3496.chunk.js",
+    "static/media/skim.png": "/mac-app-companion/static/media/skim.576c5bf6582f594f8f17.png",
+    "static/media/mathematica.png": "/mac-app-companion/static/media/mathematica.bdc5aaa51c86fa4c0aaa.png",
+    "static/media/thunderbird.ico": "/mac-app-companion/static/media/thunderbird.357b81e1a777fbfa6706.ico",
+    "static/media/magnet.png": "/mac-app-companion/static/media/magnet.6fc249074956eb1ab5e0.png",
+    "static/media/blender.ico": "/mac-app-companion/static/media/blender.4a562d3209e383cf3dbe.ico",
+    "static/media/joplin.png": "/mac-app-companion/static/media/joplin.bc51a91f3b55c22cdd56.png",
+    "static/media/rectangle.png": "/mac-app-companion/static/media/rectangle.109f168344fc9f2c2b7b.png",
+    "static/media/alfred.png": "/mac-app-companion/static/media/alfred.e775ed3ef11ff4cd2453.png",
+    "static/media/iterm.png": "/mac-app-companion/static/media/iterm.6085c85a610b8a453e67.png",
+    "static/media/gimp.svg.png": "/mac-app-companion/static/media/gimp.svg.b1ffc6a831e259d709ef.png",
+    "static/media/spectacle.png": "/mac-app-companion/static/media/spectacle.71e75de9a06f00b81923.png",
+    "static/media/vimari.png": "/mac-app-companion/static/media/vimari.07e699d448e266cafd2a.png",
+    "static/media/obsidian.png.webp": "/mac-app-companion/static/media/obsidian.png.4d1252bf4a373c1e8e30.webp",
+    "static/media/maccy.png": "/mac-app-companion/static/media/maccy.43ad0ad8edbc4c441a76.png",
+    "static/media/karabiner.png": "/mac-app-companion/static/media/karabiner.67b319887e5e190ca5f3.png",
+    "static/media/goodnotes.png": "/mac-app-companion/static/media/goodnotes.b849bd7aaa942341febf.png",
+    "static/media/flux.png": "/mac-app-companion/static/media/flux.37dfc457deb8d5b4216c.png",
+    "static/media/monitorcontrol.png": "/mac-app-companion/static/media/monitorcontrol.b494cf36eb46a7eb22a8.png",
+    "static/media/cheatsheet.png": "/mac-app-companion/static/media/cheatsheet.53b0439cb4b2e596605a.png",
+    "static/media/notion.png": "/mac-app-companion/static/media/notion.7aa264a898951e791ee3.png",
+    "index.html": "/mac-app-companion/index.html",
+    "main.7b827f1f.css.map": "/mac-app-companion/static/css/main.7b827f1f.css.map",
+    "main.e4df58cd.js.map": "/mac-app-companion/static/js/main.e4df58cd.js.map",
+    "787.d0bc3496.chunk.js.map": "/mac-app-companion/static/js/787.d0bc3496.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b827f1f.css",
+    "static/js/main.e4df58cd.js"
+  ]
+}
