@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mac-companion-app/static/css/main.7b827f1f.css",
-    "main.js": "/mac-companion-app/static/js/main.49c38d6f.js",
+    "main.js": "/mac-companion-app/static/js/main.3cbd8078.js",
     "static/js/787.d0bc3496.chunk.js": "/mac-companion-app/static/js/787.d0bc3496.chunk.js",
     "static/media/skim.png": "/mac-companion-app/static/media/skim.576c5bf6582f594f8f17.png",
     "static/media/mathematica.png": "/mac-companion-app/static/media/mathematica.bdc5aaa51c86fa4c0aaa.png",
@@ -25,11 +25,11 @@
     "static/media/notion.png": "/mac-companion-app/static/media/notion.7aa264a898951e791ee3.png",
     "index.html": "/mac-companion-app/index.html",
     "main.7b827f1f.css.map": "/mac-companion-app/static/css/main.7b827f1f.css.map",
-    "main.49c38d6f.js.map": "/mac-companion-app/static/js/main.49c38d6f.js.map",
+    "main.3cbd8078.js.map": "/mac-companion-app/static/js/main.3cbd8078.js.map",
     "787.d0bc3496.chunk.js.map": "/mac-companion-app/static/js/787.d0bc3496.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b827f1f.css",
-    "static/js/main.49c38d6f.js"
+    "static/js/main.3cbd8078.js"
   ]
 }
