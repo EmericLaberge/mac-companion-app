@@ -1,9 +1,8 @@
 {
   "name": "mac-app",
   "version": "0.1.0",
-  "homepage": ".",
-  "private": true,
   "homepage": "https://emericlaberge.github.io/mac-companion-app",
+  "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -19,7 +18,7 @@
     "jotai": "^2.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.15.0",
+    "react-router-dom": "^6.21.1",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"

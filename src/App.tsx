@@ -8,17 +8,18 @@ import ListOfApps from './ListOfApps';
 import Setup from './Setup';
 import './App.css';
 import Terminal from './Terminal';
+import NavBar from './Components/Navbar/NavBar';
 const App: React.FC = () => (
   <Router>
-    <nav>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/ListOfApps" element={<ListOfApps />} />
-        <Route path="/Setup" element={<Setup />} />
-        <Route path="/Terminal" element={<Terminal />} /> 
-        <Route path="/About" element={<About />} />
-      </Routes>
-    </nav>
+    <NavBar />
+    <Routes>
+
+      <Route path="/" element={<Home />} />
+      <Route path="/ListOfApps" element={<ListOfApps />} />
+      <Route path="/Setup" element={<Setup />} />
+      <Route path="/Terminal" element={<Terminal />} />
+      <Route path="/About" element={<About />} />
+    </Routes>
   </Router>
 );
 
