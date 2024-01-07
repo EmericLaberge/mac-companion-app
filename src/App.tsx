@@ -10,7 +10,7 @@ import './App.css';
 import Terminal from './Terminal';
 import NavBar from './Components/Navbar/NavBar';
 const App: React.FC = () => (
-  <Router>
+  <Router basename="/mac-companion-app">
     <NavBar />
     <Routes>
 
