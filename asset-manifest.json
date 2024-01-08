@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mac-companion-app/static/css/main.7b827f1f.css",
-    "main.js": "/mac-companion-app/static/js/main.e9cd158c.js",
-    "static/js/787.d0bc3496.chunk.js": "/mac-companion-app/static/js/787.d0bc3496.chunk.js",
+    "main.css": "/mac-companion-app/static/css/main.2a2b5542.css",
+    "main.js": "/mac-companion-app/static/js/main.f00e41c8.js",
+    "static/js/787.77514dcc.chunk.js": "/mac-companion-app/static/js/787.77514dcc.chunk.js",
     "static/media/skim.png": "/mac-companion-app/static/media/skim.576c5bf6582f594f8f17.png",
     "static/media/mathematica.png": "/mac-companion-app/static/media/mathematica.bdc5aaa51c86fa4c0aaa.png",
     "static/media/thunderbird.ico": "/mac-companion-app/static/media/thunderbird.357b81e1a777fbfa6706.ico",
@@ -24,12 +24,12 @@
     "static/media/cheatsheet.png": "/mac-companion-app/static/media/cheatsheet.53b0439cb4b2e596605a.png",
     "static/media/notion.png": "/mac-companion-app/static/media/notion.7aa264a898951e791ee3.png",
     "index.html": "/mac-companion-app/index.html",
-    "main.7b827f1f.css.map": "/mac-companion-app/static/css/main.7b827f1f.css.map",
-    "main.e9cd158c.js.map": "/mac-companion-app/static/js/main.e9cd158c.js.map",
-    "787.d0bc3496.chunk.js.map": "/mac-companion-app/static/js/787.d0bc3496.chunk.js.map"
+    "main.2a2b5542.css.map": "/mac-companion-app/static/css/main.2a2b5542.css.map",
+    "main.f00e41c8.js.map": "/mac-companion-app/static/js/main.f00e41c8.js.map",
+    "787.77514dcc.chunk.js.map": "/mac-companion-app/static/js/787.77514dcc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b827f1f.css",
-    "static/js/main.e9cd158c.js"
+    "static/css/main.2a2b5542.css",
+    "static/js/main.f00e41c8.js"
   ]
 }
