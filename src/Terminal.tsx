@@ -44,7 +44,7 @@ function Terminal() {
     link = "https://github.com/zsh-users/zsh-syntax-highlighting"
     />
 <AppCard
-    name = "Zsh-z"
+    name = "z"
     description = "Zsh-z is a plugin for Zsh. It allows you to jump to a directory by typing its name."
     image="https://raw.githubusercontent.com/agkozak/zsh-z/master/zsh-z.gif"
     link = "https://github.com/agkozak/zsh-z"
