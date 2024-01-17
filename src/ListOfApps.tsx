@@ -3,6 +3,7 @@ import { useAtom } from 'jotai';
 import AppCard from './Components/AppCard/AppCard';
 import { appsAtom, searchQueryAtom } from './atoms';
 import NavBar from './Components/Navbar/NavBar';
+import Grid from '@mui/material/Grid';
 const ListOfApps: React.FC = () => {
   const [apps] = useAtom(appsAtom);
   const [searchQuery] = useAtom(searchQueryAtom);
@@ -14,15 +15,19 @@ const ListOfApps: React.FC = () => {
   return (
     <div>
       <NavBar />
+      <Grid container spacing={2}>
       {filteredApps.map((app) => (
-        <AppCard
+      <div className="flex justify-center align-center">
+        <AppCard 
           key={app.name}
           name={app.name}
           description={app.description}
           image={app.image}
           link={app.link}
         />
+      </div>
       ))}
+      </Grid>
     </div>
   );
 };

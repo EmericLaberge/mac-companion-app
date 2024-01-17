@@ -1,7 +1,6 @@
 import React from "react";
 import NavBar from "./Components/Navbar/NavBar";
 import "./App.css";
-import AppCard from "./Components/AppCard/AppCard";
 function HomePage() {
   return (
     <div>
