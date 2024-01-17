@@ -27,14 +27,6 @@ export const AppsAtom = atom([
     brewFormula: "",
   },
   {
-    name: "Darkreader for Safari",
-    description:
-      "Darkreader for Safari is a browser extension that enables you to apply dark mode to websites that don't have a built-in dark mode.",
-    image: require("./images/darkreader.png"),
-    link: "darkreader-app-link",
-    brewFormula: "",
-  },
-  {
     name: "Flux",
     description:
       "Flux is a utility that adjusts the color temperature of your screen based on the time of day, reducing eye strain and improving sleep quality.",
