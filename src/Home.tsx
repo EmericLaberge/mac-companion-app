@@ -5,7 +5,6 @@ function HomePage() {
   return (
     <div>
       <NavBar />
-
        <h1 id="header-title">Welcome</h1>
        <p id = "header-description">
         Welcome to my website! This is the place where I share some of my favorite apps and tools for Mac. Whether you're a new

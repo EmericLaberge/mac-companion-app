@@ -37,6 +37,11 @@ const NavBar: React.FC = () => {
             About
           </NavLink>
         </li>
+        <li id="cart" >
+          <NavLink to="/Cart" style={getLinkStyle("/Cart")}>
+            Cart
+          </NavLink>
+        </li>
       </ul>
     </div>
   );

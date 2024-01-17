@@ -20,7 +20,12 @@ ul#menu li {
   background-color: rgb(22, 34, 45, 0.5 );
   backdrop-filter: blur(15px);
   overflow: hidden;
+  z-index: 1;
   margin: 0 auto;
+}
+
+#cart{
+  float: right;
 }
 
 :global(#menu a.active) {

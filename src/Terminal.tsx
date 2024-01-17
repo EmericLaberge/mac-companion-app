@@ -4,7 +4,6 @@ import AppCard from "./Components/AppCard/AppCard";
 function Terminal() {
   return (
     <div>
-      <NavBar />
       <h1 id="header-title">Terminal</h1>
       <p id="header-description">
         This section is dedicated to the Terminal application, which is a big part 
