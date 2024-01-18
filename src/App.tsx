@@ -6,9 +6,11 @@ import Home from './Home';
 import About from './About';
 import ListOfApps from './ListOfApps';
 import Setup from './Setup';
+import Cart from './Cart';
 import './App.css';
 import Terminal from './Terminal';
 import NavBar from './Components/Navbar/NavBar';
+
 const App: React.FC = () => (
   <Router basename="/mac-companion-app">
     <NavBar />
@@ -19,6 +21,7 @@ const App: React.FC = () => (
       <Route path="/Setup" element={<Setup />} />
       <Route path="/Terminal" element={<Terminal />} />
       <Route path="/About" element={<About />} />
+      <Route path="/Cart" element={<Cart />} />
     </Routes>
   </Router>
 );

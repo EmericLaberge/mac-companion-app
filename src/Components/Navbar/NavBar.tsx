@@ -1,13 +1,20 @@
 // NavBar.tsx
 import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
+import { CartAmountAtom, DownloadScriptsAtom } from "../../atoms";
 import "./NavBar.css";
+import { useAtom } from "jotai";
+
+
 const NavBar: React.FC = () => {
   const location = useLocation();
 
   const getLinkStyle = (path: string) => {
     return location.pathname === path ? { color: "#ff9900" } : { color: "#ffffff" };
   };
+
+  const [cartAmount] = useAtom(CartAmountAtom);
+  const [fomulaes, setFormulas] = useAtom(DownloadScriptsAtom)
 
   return (
     <div className={"navbar"}>
@@ -37,9 +44,10 @@ const NavBar: React.FC = () => {
             About
           </NavLink>
         </li>
-        <li id="cart" >
-          <NavLink to="/Cart" style={getLinkStyle("/Cart")}>
-            Cart
+        <li id="cart">
+        <NavLink to="/cart"
+        style={getLinkStyle("/cart")}>
+            Cart {cartAmount > 0 ? `(${cartAmount})` : ""}
           </NavLink>
         </li>
       </ul>
