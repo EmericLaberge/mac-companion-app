@@ -259,7 +259,7 @@ export const AppsAtom = atom([
 {
   name: "Logseq",
   description: "Logseq is a platform for knowledge management and collaboration, supporting task management, note-taking, and knowledge base building.",
-  image: require("./images/logseq.png"),
+  image: require("./images/logseq.icns"),
   link: "https://logseq.com/",
   brewFormula: "brew install --cask logseq",
   isAdded: false,
