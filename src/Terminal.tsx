@@ -113,6 +113,7 @@ function Terminal() {
 return (
 <div>
 <NavBar />
+<h1> In Progress </h1>
 </div>
 );
 }
