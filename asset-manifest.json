@@ -1,11 +1,16 @@
 {
   "files": {
     "main.css": "/mac-companion-app/static/css/main.3d5dd5cf.css",
-    "main.js": "/mac-companion-app/static/js/main.88ac7fb5.js",
+    "main.js": "/mac-companion-app/static/js/main.e4794161.js",
     "static/js/787.77514dcc.chunk.js": "/mac-companion-app/static/js/787.77514dcc.chunk.js",
+    "static/media/logseq.icns": "/mac-companion-app/static/media/logseq.9e2932928337ce4d68e2.icns",
+    "static/media/appcleaner.icns": "/mac-companion-app/static/media/appcleaner.cdcbe4bb7caa52fc9e5e.icns",
+    "static/media/alttab.icns": "/mac-companion-app/static/media/alttab.bb49bcfbc43d79c2f21f.icns",
     "static/media/skim.png": "/mac-companion-app/static/media/skim.576c5bf6582f594f8f17.png",
     "static/media/thunderbird.ico": "/mac-companion-app/static/media/thunderbird.357b81e1a777fbfa6706.ico",
     "static/media/joplin.png": "/mac-companion-app/static/media/joplin.bc51a91f3b55c22cdd56.png",
+    "static/media/kicad.icns": "/mac-companion-app/static/media/kicad.db7f581df9517363b1ae.icns",
+    "static/media/libreoffice.icns": "/mac-companion-app/static/media/libreoffice.2071d149cf923aabec6b.icns",
     "static/media/rectangle.png": "/mac-companion-app/static/media/rectangle.109f168344fc9f2c2b7b.png",
     "static/media/iterm.png": "/mac-companion-app/static/media/iterm.6085c85a610b8a453e67.png",
     "static/media/obsidian.png.webp": "/mac-companion-app/static/media/obsidian.png.4d1252bf4a373c1e8e30.webp",
@@ -15,11 +20,11 @@
     "static/media/cheatsheet.png": "/mac-companion-app/static/media/cheatsheet.53b0439cb4b2e596605a.png",
     "index.html": "/mac-companion-app/index.html",
     "main.3d5dd5cf.css.map": "/mac-companion-app/static/css/main.3d5dd5cf.css.map",
-    "main.88ac7fb5.js.map": "/mac-companion-app/static/js/main.88ac7fb5.js.map",
+    "main.e4794161.js.map": "/mac-companion-app/static/js/main.e4794161.js.map",
     "787.77514dcc.chunk.js.map": "/mac-companion-app/static/js/787.77514dcc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d5dd5cf.css",
-    "static/js/main.88ac7fb5.js"
+    "static/js/main.e4794161.js"
   ]
 }
