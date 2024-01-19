@@ -1,29 +1,25 @@
 {
   "files": {
-    "main.css": "/mac-companion-app/static/css/main.5dce6c5c.css",
-    "main.js": "/mac-companion-app/static/js/main.878cc4e5.js",
+    "main.css": "/mac-companion-app/static/css/main.3d5dd5cf.css",
+    "main.js": "/mac-companion-app/static/js/main.3b089494.js",
     "static/js/787.77514dcc.chunk.js": "/mac-companion-app/static/js/787.77514dcc.chunk.js",
     "static/media/skim.png": "/mac-companion-app/static/media/skim.576c5bf6582f594f8f17.png",
-    "static/media/keyclu.png": "/mac-companion-app/static/media/keyclu.2c505f1b9473c5c64ffa.png",
     "static/media/thunderbird.ico": "/mac-companion-app/static/media/thunderbird.357b81e1a777fbfa6706.ico",
-    "static/media/blender.ico": "/mac-companion-app/static/media/blender.4a562d3209e383cf3dbe.ico",
     "static/media/joplin.png": "/mac-companion-app/static/media/joplin.bc51a91f3b55c22cdd56.png",
     "static/media/rectangle.png": "/mac-companion-app/static/media/rectangle.109f168344fc9f2c2b7b.png",
     "static/media/iterm.png": "/mac-companion-app/static/media/iterm.6085c85a610b8a453e67.png",
-    "static/media/gimp.svg.png": "/mac-companion-app/static/media/gimp.svg.b1ffc6a831e259d709ef.png",
     "static/media/obsidian.png.webp": "/mac-companion-app/static/media/obsidian.png.4d1252bf4a373c1e8e30.webp",
-    "static/media/maccy.png": "/mac-companion-app/static/media/maccy.43ad0ad8edbc4c441a76.png",
+    "static/media/4771337.png": "/mac-companion-app/static/media/4771337.4bded5d62701336f5b85.png",
     "static/media/karabiner.png": "/mac-companion-app/static/media/karabiner.67b319887e5e190ca5f3.png",
-    "static/media/flux.png": "/mac-companion-app/static/media/flux.37dfc457deb8d5b4216c.png",
     "static/media/monitorcontrol.png": "/mac-companion-app/static/media/monitorcontrol.b494cf36eb46a7eb22a8.png",
     "static/media/cheatsheet.png": "/mac-companion-app/static/media/cheatsheet.53b0439cb4b2e596605a.png",
     "index.html": "/mac-companion-app/index.html",
-    "main.5dce6c5c.css.map": "/mac-companion-app/static/css/main.5dce6c5c.css.map",
-    "main.878cc4e5.js.map": "/mac-companion-app/static/js/main.878cc4e5.js.map",
+    "main.3d5dd5cf.css.map": "/mac-companion-app/static/css/main.3d5dd5cf.css.map",
+    "main.3b089494.js.map": "/mac-companion-app/static/js/main.3b089494.js.map",
     "787.77514dcc.chunk.js.map": "/mac-companion-app/static/js/787.77514dcc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dce6c5c.css",
-    "static/js/main.878cc4e5.js"
+    "static/css/main.3d5dd5cf.css",
+    "static/js/main.3b089494.js"
   ]
 }
