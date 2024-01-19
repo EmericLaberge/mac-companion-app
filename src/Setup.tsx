@@ -70,8 +70,9 @@
 
 function Setup() {
   return (
-    <div>
-    <h1> In progress </h1>
+<div className="align-center justify-center items-center
+flex flex-col">
+    <h1> In Progress </h1>
     </div>
   );
 }

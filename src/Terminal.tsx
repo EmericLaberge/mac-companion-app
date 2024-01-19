@@ -111,8 +111,8 @@ import AppCard from "./Components/AppCard/AppCard";
 //
 function Terminal() {
 return (
-<div>
-<NavBar />
+<div className="align-center justify-center items-center
+flex flex-col">
 <h1> In Progress </h1>
 </div>
 );
