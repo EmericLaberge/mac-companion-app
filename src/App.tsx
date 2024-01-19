@@ -1,7 +1,7 @@
 // App.tsx
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import ListOfApps from './ListOfApps';
@@ -12,7 +12,7 @@ import Terminal from './Terminal';
 import NavBar from './Components/Navbar/NavBar';
 
 const App: React.FC = () => (
-  <Router basename="/mac-companion-app">
+  <Router>
     <NavBar />
     <Routes>
 
