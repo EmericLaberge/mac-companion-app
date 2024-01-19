@@ -6,7 +6,7 @@ export const AppsAtom = atom([
 {
   name: "Alt-Tab",
   description: "Alt-Tab brings the power of Windows’s “alt-tab” window switcher to macOS.",
-  image: require("./images/alttab.icns"),
+  image: require("./images/alttab_1024x1024x32.png"),
   link: "https://alt-tab-macos.netlify.app",
   brewFormula: "brew install --cask alt-tab",
   isAdded: false,
@@ -16,7 +16,7 @@ export const AppsAtom = atom([
 {
   name: "AppCleaner",
   description: "AppCleaner is a small application that allows you to thoroughly uninstall unwanted apps.",
-  image: require("./images/appcleaner.icns"),
+  image: require("./images/appcleaner_1024x1024x32.png"),
   link: "https://freemacsoft.net/appcleaner/",
   brewFormula: "brew install --cask appcleaner",
   isAdded: false,
@@ -239,7 +239,7 @@ export const AppsAtom = atom([
 {
   name: "KiCad",
   description: "KiCad is an open-source software suite for electronic design automation (EDA).",
-  image: require("./images/kicad.icns"),
+  image: require("./images/kicad_1024x1024x32.png"),
   link: "http://www.kicad-pcb.org",
   brewFormula: "brew install --cask kicad",
   isAdded: false,
@@ -248,7 +248,7 @@ export const AppsAtom = atom([
 {
   name: "LibreOffice",
   description: "LibreOffice is a powerful office suite that provides a clean interface and tools that let you unleash your creativity and grow your productivity. It includes several applications that make it the most versatile Free and Open Source office suite on the market.",
-  image: require("./images/libreoffice.icns"),
+  image: require("./images/libreoffice_1024x1024x32.png"),
   link: "https://www.libreoffice.org/",
   brewFormula: "brew install --cask libreoffice",
   isAdded: false,
@@ -259,7 +259,7 @@ export const AppsAtom = atom([
 {
   name: "Logseq",
   description: "Logseq is a platform for knowledge management and collaboration, supporting task management, note-taking, and knowledge base building.",
-  image: require("./images/logseq.icns"),
+  image: require("./images/logseq_1024x1024x32.png"),
   link: "https://logseq.com/",
   brewFormula: "brew install --cask logseq",
   isAdded: false,
