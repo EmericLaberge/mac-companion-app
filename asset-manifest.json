@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/mac-companion-app/static/css/main.3d5dd5cf.css",
-    "main.js": "/mac-companion-app/static/js/main.e4794161.js",
+    "main.js": "/mac-companion-app/static/js/main.fe373d2d.js",
     "static/js/787.77514dcc.chunk.js": "/mac-companion-app/static/js/787.77514dcc.chunk.js",
-    "static/media/logseq.icns": "/mac-companion-app/static/media/logseq.9e2932928337ce4d68e2.icns",
-    "static/media/appcleaner.icns": "/mac-companion-app/static/media/appcleaner.cdcbe4bb7caa52fc9e5e.icns",
-    "static/media/alttab.icns": "/mac-companion-app/static/media/alttab.bb49bcfbc43d79c2f21f.icns",
+    "static/media/logseq_1024x1024x32.png": "/mac-companion-app/static/media/logseq_1024x1024x32.01c2fb9903cf22980ea0.png",
+    "static/media/appcleaner_1024x1024x32.png": "/mac-companion-app/static/media/appcleaner_1024x1024x32.8173219344e7e508ba42.png",
+    "static/media/alttab_1024x1024x32.png": "/mac-companion-app/static/media/alttab_1024x1024x32.3b1d21ce882d4fe032ed.png",
     "static/media/skim.png": "/mac-companion-app/static/media/skim.576c5bf6582f594f8f17.png",
     "static/media/thunderbird.ico": "/mac-companion-app/static/media/thunderbird.357b81e1a777fbfa6706.ico",
     "static/media/joplin.png": "/mac-companion-app/static/media/joplin.bc51a91f3b55c22cdd56.png",
-    "static/media/kicad.icns": "/mac-companion-app/static/media/kicad.db7f581df9517363b1ae.icns",
-    "static/media/libreoffice.icns": "/mac-companion-app/static/media/libreoffice.2071d149cf923aabec6b.icns",
     "static/media/rectangle.png": "/mac-companion-app/static/media/rectangle.109f168344fc9f2c2b7b.png",
     "static/media/iterm.png": "/mac-companion-app/static/media/iterm.6085c85a610b8a453e67.png",
+    "static/media/kicad_1024x1024x32.png": "/mac-companion-app/static/media/kicad_1024x1024x32.af3361aa9a8ac68e89b0.png",
+    "static/media/libreoffice_1024x1024x32.png": "/mac-companion-app/static/media/libreoffice_1024x1024x32.088e128be51cb44cef14.png",
     "static/media/obsidian.png.webp": "/mac-companion-app/static/media/obsidian.png.4d1252bf4a373c1e8e30.webp",
     "static/media/4771337.png": "/mac-companion-app/static/media/4771337.4bded5d62701336f5b85.png",
     "static/media/karabiner.png": "/mac-companion-app/static/media/karabiner.67b319887e5e190ca5f3.png",
@@ -20,11 +20,11 @@
     "static/media/cheatsheet.png": "/mac-companion-app/static/media/cheatsheet.53b0439cb4b2e596605a.png",
     "index.html": "/mac-companion-app/index.html",
     "main.3d5dd5cf.css.map": "/mac-companion-app/static/css/main.3d5dd5cf.css.map",
-    "main.e4794161.js.map": "/mac-companion-app/static/js/main.e4794161.js.map",
+    "main.fe373d2d.js.map": "/mac-companion-app/static/js/main.fe373d2d.js.map",
     "787.77514dcc.chunk.js.map": "/mac-companion-app/static/js/787.77514dcc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d5dd5cf.css",
-    "static/js/main.e4794161.js"
+    "static/js/main.fe373d2d.js"
   ]
 }
