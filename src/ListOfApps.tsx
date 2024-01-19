@@ -4,6 +4,7 @@ import AppCard from './Components/AppCard/AppCard';
 import { useAtom } from 'jotai';
 import { alternateAppsAtom, AppsAtom } from './atoms';
 import SearchBar from "material-ui-search-bar";
+import { Typography } from '@mui/material';
 
 
 const ListOfApps: React.FC = () => {
@@ -34,6 +35,14 @@ const ListOfApps: React.FC = () => {
 
   return (
     <div className="container mx-auto px-4">
+      <Typography variant="h2" className="text-center my-4">
+        Welcome to the Mac Companion!
+      </Typography>
+      <Typography variant="h4" className="text-center my-4">
+        Here you can find a list of apps that you can add to
+        your cart and by clicking on the cart icon on the top right corner, you will be able to 
+        <strong> download all the apps you have selected with only one command.</strong>
+      </Typography>
       <div className="flex flex-col items-center py-4">
         <SearchBar
           value={searchQuery}
@@ -55,6 +64,7 @@ const ListOfApps: React.FC = () => {
                 brewFormula={app.brewFormula}
                 isAdded={app.isAdded}
                 toggleAdded={toggleAdded}
+
               />
             </div>
           ))}

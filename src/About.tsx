@@ -1,3 +1,4 @@
+import { Typography } from "@mui/material";
 import React from "react";
 import NavBar from "./Components/Navbar/NavBar";
 
@@ -5,7 +6,9 @@ function About() {
   return (
     <div>
       <NavBar />
-      <h1 id = "header-title">About Me</h1>
+      <Typography variant="h2" className="text-center my-4">
+       About Me 
+      </Typography>
       <p id = "header-description">
         My name is <strong>Emeric</strong> and I'm a computer science student at
         the University of Montreal. I designed this website as a personal project

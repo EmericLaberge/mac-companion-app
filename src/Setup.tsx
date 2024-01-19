@@ -68,12 +68,14 @@
 //   );
 // }
 
+import { Typography } from "@mui/material";
+
+
 function Setup() {
   return (
-<div className="align-center justify-center items-center
-flex flex-col">
-    <h1> In Progress </h1>
-    </div>
+<Typography variant="h2" className="text-center my-4">
+In Progress
+</Typography>
   );
 }
   export default Setup;

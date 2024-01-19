@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./Components/Navbar/NavBar";
 import AppCard from "./Components/AppCard/AppCard";
+import { Typography } from "@mui/material";
 // function Terminal() {
 //   return (
 //     <div>
@@ -111,10 +112,9 @@ import AppCard from "./Components/AppCard/AppCard";
 //
 function Terminal() {
 return (
-<div className="align-center justify-center items-center
-flex flex-col">
-<h1> In Progress </h1>
-</div>
+<Typography variant="h2" className="text-center my-4">
+In Progress
+</Typography>
 );
 }
   

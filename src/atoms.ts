@@ -26,7 +26,7 @@ export const AppsAtom = atom([
 {
   name: "BetterDisplay",
   description: "BetterDisplay offers advanced features for managing your displays, including better resolution options, rotation, mirroring, and more.",
-  image: require("./images/4771337.png"),
+  image: require("./images/betterdisplay.png"),
   link: "https://betterdisplay.app",
   brewFormula: "brew install --cask betterdisplay",
   isAdded: false,
@@ -36,7 +36,7 @@ export const AppsAtom = atom([
 {
   name: "Browserosaurus",
   description: "Browserosaurus is a macOS tool that prompts you to choose a browser when opening a link.",
-  image: require("./images/4771337.png"),
+  image: require("./images/browserrosaurus.png"),
   link: "https://browserosaurus.com",
   brewFormula: "brew install --cask browserosaurus",
   isAdded: false,
@@ -46,7 +46,7 @@ export const AppsAtom = atom([
 {
   name: "Cakebrew",
   description: "Cakebrew is a GUI app for Homebrew, allowing you to manage your Homebrew installations with a graphical interface.",
-  image: require("./images/4771337.png"),
+  image: require("./images/cakebrew.webp"),
   link: "https://www.cakebrew.com",
   brewFormula: "brew install --cask cakebrew",
   isAdded: false,
@@ -56,7 +56,7 @@ export const AppsAtom = atom([
 {
   name: "Cemu",
   description: "Cemu is a highly experimental software to emulate Wii U applications on your computer.",
-  image: require("./images/4771337.png"),
+  image: require("./images/cemu.png"),
   link: "http://cemu.info",
   brewFormula: "brew install --cask cemu",
   isAdded: false,
@@ -76,7 +76,7 @@ export const AppsAtom = atom([
 {
   name: "Clean Me",
   description: "Clean Me is an open source system cleaner for MacOS.",
-  image: require("./images/4771337.png"),
+  image: require("./images/cleanme.webp"),
   link: "https://github.com/Kevin-De-Koninck/Clean-Me",
   brewFormula: "brew install --cask clean-me",
   isAdded: false,
@@ -86,7 +86,7 @@ export const AppsAtom = atom([
 {
   name: "CodeEdit",
   description: "CodeEdit is a code editor for macOS with features and integration specifically tailored for programming and development.",
-  image: require("./images/4771337.png"),
+  image: require("./images/c0380f8f6a7cfd143a51bbbe29ea59ef_6ZqbgbVaIi_1024x1024x32.png"),
   link: "https://codeedit.app",
   brewFormula: "brew install --cask codeedit",
   isAdded: false,
@@ -96,7 +96,7 @@ export const AppsAtom = atom([
 {
   name: "Command-X",
   description: "Command-X provides quick access to your most frequently used actions, with a simple keystroke.",
-  image: require("./images/4771337.png"),
+  image: require("./images/cmdx.png"),
   link: "https://commandx.app",
   brewFormula: "brew install --cask command-x",
   isAdded: false,
@@ -107,7 +107,7 @@ export const AppsAtom = atom([
 {
   name: "DBeaver Community",
   description: "DBeaver Community is a free, open-source universal database tool and SQL client.",
-  image: require("./images/4771337.png"),
+  image: require("./images/40cdcd961c2c749c12ca69c28b5216b2_DBeaver_1024x1024x32.png"),
   link: "https://dbeaver.io",
   brewFormula: "brew install --cask dbeaver-community",
   isAdded: false,
@@ -127,7 +127,7 @@ export const AppsAtom = atom([
 {
   name: "Discord",
   description: "Discord is a communication platform designed for creating communities ranging from gamers to education and businesses.",
-  image: require("./images/4771337.png"),
+  image: require("./images/disco.png"), 
   link: "https://discord.com",
   brewFormula: "brew install --cask discord",
   isAdded: false,
@@ -137,7 +137,7 @@ export const AppsAtom = atom([
 {
   name: "Disk Inventory X",
   description: "Disk Inventory X is a disk usage utility for macOS, visualizing the disk space on your computer.",
-  image: require("./images/4771337.png"),
+  image: require("./images/Disk_Inventory_X_logo.png"),
   link: "http://www.derlien.com",
   brewFormula: "brew install --cask disk-inventory-x",
   isAdded: false,
@@ -147,7 +147,7 @@ export const AppsAtom = atom([
 {
   name: "Docker",
   description: "Docker is a set of platform-as-a-service products that use OS-level virtualization to deliver software in packages called containers.",
-  image: require("./images/4771337.png"),
+  image: require("./images/docker.png"),
   link: "https://www.docker.com",
   brewFormula: "brew install --cask docker",
   isAdded: false,
@@ -157,7 +157,7 @@ export const AppsAtom = atom([
 {
   name: "Element",
   description: "Element is a secure, private and decentralized communication app for teams and individuals, built on the Matrix protocol.",
-  image: require("./images/4771337.png"),
+  image: require("./images/element.png"),
   link: "https://element.io",
   brewFormula: "brew install --cask element",
   isAdded: false,
@@ -167,7 +167,7 @@ export const AppsAtom = atom([
 {
   name: "Espanso",
   description: "Espanso is a cross-platform Text Expander written in Rust.",
-  image: require("./images/4771337.png"),
+  image: require("./images/espanso.png"),
   link: "https://espanso.org",
   brewFormula: "brew install --cask espanso",
   isAdded: false,
@@ -177,7 +177,7 @@ export const AppsAtom = atom([
 {
   name: "Firefox",
   description: "Mozilla Firefox is a free and open-source web browser developed by the Mozilla Foundation.",
-  image: require("./images/4771337.png"),
+  image: require("./images/firefox.png"),
   link: "https://www.mozilla.org/en-US/firefox/",
   brewFormula: "brew install --cask firefox",
   isAdded: false,
@@ -197,7 +197,7 @@ export const AppsAtom = atom([
 {
   name: "FreeCAD",
   description: "FreeCAD is an open-source parametric 3D CAD modeler made primarily to design real-life objects of any size.",
-  image: require("./images/4771337.png"),
+  image: require("./images/freecad.png"),
   link: "https://www.freecadweb.org",
   brewFormula: "brew install --cask freecad",
   isAdded: false,
@@ -269,7 +269,7 @@ export const AppsAtom = atom([
 {
   name: "MacFuse",
   description: "MacFuse allows you to extend macOS's native file handling capabilities via third-party file systems.",
-  image: require("./images/4771337.png"),
+  image: require("./images/fuse.png"),
   link: "https://osxfuse.github.io",
   brewFormula: "brew install --cask macfuse",
   isAdded: false,
@@ -279,7 +279,7 @@ export const AppsAtom = atom([
 {
   name: "MacTeX",
   description: "MacTeX is a distribution of TeX Live, a typesetting environment for macOS.",
-  image: require("./images/4771337.png"),
+  image: require("./images/mactex.png"),
   link: "https://tug.org/mactex/",
   brewFormula: "brew install --cask mactex",
   isAdded: false,
@@ -289,7 +289,7 @@ export const AppsAtom = atom([
 {
   name: "MacVim",
   description: "MacVim is a port of the text editor Vim to macOS.",
-  image: require("./images/4771337.png"),
+  image: require("./images/macvim.png"),
   link: "https://macvim-dev.github.io/macvim/",
   brewFormula: "brew install --cask macvim",
   isAdded: false,
@@ -320,7 +320,7 @@ export const AppsAtom = atom([
 {
   name: "Nofwl",
   description: "Nofwl is a simple, yet powerful firewall app for macOS to block outgoing connections.",
-  image: require("./images/4771337.png"),
+  image: require("./images/nofwl.png"),
   link: "https://nofwl.com/",
   brewFormula: "brew install --cask nofwl",
   isAdded: false,
@@ -340,7 +340,7 @@ export const AppsAtom = atom([
 {
   name: "OpenInTerminal",
   description: "OpenInTerminal makes it easy to open the current Finder window (or selected folders/files) in Terminal, iTerm, or other custom terminals.",
-  image: require("./images/4771337.png"),
+  image: require("./images/openinterminal-logo.png"),
   link: "https://github.com/Ji4n1ng/OpenInTerminal",
   brewFormula: "brew install --cask openinterminal",
   isAdded: false,
@@ -350,9 +350,18 @@ export const AppsAtom = atom([
 {
   name: "PDFsam Basic",
   description: "PDFsam Basic is a free, open-source, multi-platform software designed to split, merge, extract pages, mix, and rotate PDF files.",
-  image: require("./images/4771337.png"),
+  image: require("./images/pdfsam.png"),
   link: "https://pdfsam.org/",
   brewFormula: "brew install --cask pdfsam-basic",
+  isAdded: false,
+},
+// pictogram
+{
+  name: "Pictogram",
+  description: "Pictogram is a free and open-source app that allows you to use pictograms and emoji on your Mac. It can be used to change the default icons of apps, folders, files, and much more. The icons wills be kept even if the app is updated which is not the case if you just change the icon via the info panel.",
+  image: require("./images/pictogram.png"),
+  link: "https://pictogramapp.com",
+  brewFormula: "brew install --cask pictogram",
   isAdded: false,
 },
 
@@ -360,7 +369,7 @@ export const AppsAtom = atom([
 {
   name: "Pomotroid",
   description: "Pomotroid is a simple and configurable Pomodoro timer. It helps you to stay focused and manage your time effectively using the Pomodoro technique.",
-  image: require("./images/4771337.png"),
+  image: require("./images/pomotroid.png"),
   link: "https://splode.github.io/pomotroid",
   brewFormula: "brew install --cask pomotroid",
   isAdded: false,
@@ -370,7 +379,7 @@ export const AppsAtom = atom([
 {
   name: "PrusaSlicer",
   description: "PrusaSlicer is a 3D slicing software for 3D printers. It's based on the open-source project Slic3r and tailored for Prusa 3D printers, but it works well with many other printers too.",
-  image: require("./images/4771337.png"),
+  image: require("./images/prusa.png"),
   link: "https://www.prusa3d.com/prusaslicer/",
   brewFormula: "brew install --cask prusaslicer",
   isAdded: false,
@@ -380,7 +389,7 @@ export const AppsAtom = atom([
 {
   name: "QMK Toolbox",
   description: "QMK Toolbox is a tool that allows you to interface with your QMK firmware using a simple graphical interface.",
-  image: require("./images/4771337.png"),
+  image: require("./images/qmk.png"),
   link: "https://github.com/qmk/qmk_toolbox",
   brewFormula: "brew install --cask qmk-toolbox",
   isAdded: false,
@@ -390,7 +399,7 @@ export const AppsAtom = atom([
 {
   name: "Raspberry Pi Imager",
   description: "Raspberry Pi Imager is the official imaging utility for the Raspberry Pi Foundation, making it easier to install an operating system on your Raspberry Pi.",
-  image: require("./images/4771337.png"),
+  image: require("./images/rp.png"),
   link: "https://www.raspberrypi.org/software/",
   brewFormula: "brew install --cask raspberry-pi-imager",
   isAdded: false,
@@ -422,7 +431,7 @@ export const AppsAtom = atom([
 {
   name: "Spacedrive",
   description: "Spacedrive is an integrated cloud storage system that brings all of your cloud files and accounts into one place for easy access and management.",
-  image: require("./images/4771337.png"),
+  image: require("./images/spacedrive.png"),
   link: "https://www.spacedrive.com/",
   brewFormula: "brew install --cask spacedrive",
   isAdded: false,
@@ -441,7 +450,7 @@ export const AppsAtom = atom([
 {
   name: "Tor Browser",
   description: "Tor Browser is a web browser that anonymizes your web traffic using the Tor network, making it easy to protect your identity online.",
-  image: require("./images/4771337.png"),
+  image: require("./images/tor_browser_macos_bigsur_icon_189628.png"),
   link: "https://www.torproject.org",
   brewFormula: "brew install --cask tor-browser",
   isAdded: false,
@@ -451,7 +460,7 @@ export const AppsAtom = atom([
 {
   name: "Touch Portal",
   description: "Touch Portal is a macro multi action remote control for your stream or other applications on your computer.",
-  image: require("./images/4771337.png"),
+  image: require("./images/touchportal.png"),
   link: "https://www.touch-portal.com",
   brewFormula: "brew install --cask touch-portal",
   isAdded: false,
@@ -462,7 +471,7 @@ export const AppsAtom = atom([
 {
   name: "VeraCrypt",
   description: "VeraCrypt is a free open source disk encryption software for Windows, MacOS, and Linux.",
-  image: require("./images/4771337.png"),
+  image: require("./images/veracrypt.png"),
   link: "https://www.veracrypt.fr",
   brewFormula: "brew install --cask veracrypt",
   isAdded: false,
