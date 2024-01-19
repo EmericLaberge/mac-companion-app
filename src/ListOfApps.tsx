@@ -45,7 +45,7 @@ const ListOfApps: React.FC = () => {
       {filteredApps.length > 1 && (
         <div className="columns-2">
           {filteredApps.map((app) => (
-            <div key={app.name} className={`${filteredApps.length === 2 ? 'mt-4' : 'my-4'} flex justify-center break-inside-avoid`}
+            <div key={app.name} className="mt-4 flex justify-center break-inside-avoid"
             >
               <AppCard
                 name={app.name}
