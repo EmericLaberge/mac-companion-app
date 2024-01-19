@@ -9,30 +9,34 @@ export const AppsAtom = atom([
     image: require("./images/blender.ico"),
     link: "https://www.blender.org",
     brewFormula: " brew install --cask blender",
+    isAdded: false,
   },
   {
     name: "CheatSheet",
     description:
       "CheatSheet is a utility that displays all the keyboard shortcuts for the app you're using by holding down the Command key.",
     image: require("./images/cheatsheet.png"),
-    link: "cheatsheet-app-link",
+    link: "https://cheatsheet-mac.en.softonic.com/mac",
     brewFormula: " brew install --cask cheatsheet",
+    isAdded: false,
   },
   {
     name: "Flux",
     description:
       "Flux is a utility that adjusts the color temperature of your screen based on the time of day, reducing eye strain and improving sleep quality.",
     image: require("./images/flux.png"),
-    link: "flux-app-link",
+    link: "https://justgetflux.com",
     brewFormula: " brew install --cask flux",
+    isAdded: false,
   },
   {
     name: "Gimp",
     description:
       "Gimp is a free and open-source image editing software that provides tools for retouching, photo manipulation, and graphic design.",
     image: require("./images/gimp.svg.png"),
-    link: "gimp-app-link",
+    link: "https://www.gimp.org",
     brewFormula: " brew install --cask gimp",
+    isAdded: false,
   },
   {
     name: "Iterm 2",
@@ -41,6 +45,7 @@ export const AppsAtom = atom([
     image: require("./images/iterm.png"),
     link: "https://iterm2.com",
     brewFormula: " brew install --cask iterm2",
+    isAdded: false,
   },
   {
     name: "Joplin",
@@ -49,6 +54,7 @@ export const AppsAtom = atom([
     image: require("./images/joplin.png"),
     link: "https://joplinapp.org",
     brewFormula: " brew install --cask joplin",
+    isAdded: false,
   },
   {
     name: "Karabiner",
@@ -57,6 +63,7 @@ export const AppsAtom = atom([
     image: require("./images/karabiner.png"),
     link: "https://karabiner-elements.pqrs.org",
     brewFormula: " brew install --cask karabiner-elements",
+    isAdded: false,
   },
   {
     name: "Keyclu",
@@ -65,6 +72,7 @@ export const AppsAtom = atom([
     image: require("./images/keyclu.png"),
     link: "https://keycue.com",
     brewFormula: " brew install --cask keycue",
+    isAdded: false,
   },
   {
     name: "Maccy",
@@ -73,14 +81,16 @@ export const AppsAtom = atom([
     image: require("./images/maccy.png"),
     link: "https://maccy.app",
     brewFormula: "brew install --cask maccy",
+    isAdded: false,
   },
   {
     name: "MonitorControl",
     description:
       "MonitorControl is a utility that allows you to control the brightness and volume of external monitors connected to your Mac.",
     image: require("./images/monitorcontrol.png"),
-    link: "monitorcontrol-app-link",
+    link: "https://github.com/MonitorControl/MonitorControl",
     brewFormula: "brew install --cask monitorcontrol",
+    isAdded: false,
   },
   {
     name: "Numi",
@@ -89,6 +99,7 @@ export const AppsAtom = atom([
     image: require("./images/numi.png"),
     link: "https://numi.app",
     brewFormula: "brew install --cask numi",
+    isAdded: false,
   },
   {
     name: "Obsidian",
@@ -97,6 +108,7 @@ export const AppsAtom = atom([
     image: require("./images/obsidian.png.webp"),
     link: "https://obsidian.md",
     brewFormula: "brew install --cask obsidian",
+    isAdded: false,
   },
   {
     name: "Rectangle",
@@ -105,6 +117,7 @@ export const AppsAtom = atom([
     image: require("./images/rectangle.png"),
     link: "https://rectangleapp.com",
     brewFormula: "brew install --cask rectangle",
+    isAdded: false,
   },
   {
     name: "Skim",
@@ -113,14 +126,16 @@ export const AppsAtom = atom([
     image: require("./images/skim.png"),
     link: "https://skim-app.sourceforge.io",
     brewFormula: "brew install --cask skim",
+    isAdded: false,
   },
   {
     name: "Stats",
     description:
       "Stats is a statistical software package that provides tools for data analysis, visualization, and modeling.",
     image: require("./images/stats.png"),
-    link: "stats-app-link",
+    link: "https://github.com/exelban/stats",
     brewFormula: "brew install --cask stats",
+    isAdded: false,
   },
   {
     name: "Thunderbird",
@@ -129,11 +144,12 @@ export const AppsAtom = atom([
     image: require("./images/thunderbird.ico"),
     link: "https://www.thunderbird.net",
     brewFormula: "brew install --cask thunderbird",
+    isAdded: false,
   },
 ]);
 
 // Array of strings that will be the brew formulas
-export const DownloadScriptsAtom = atom(['']);
+export const DownloadScriptsAtom = atom<string[]>([]);
 export const BrewScriptAtom = atom("brew update && brew upgrade && brew cleanup");
 const orderedTwoColsApps = (apps: any) => {
   let leftCol = [];
@@ -155,6 +171,5 @@ const orderedTwoColsApps = (apps: any) => {
 export const alternateAppsAtom = atom(orderedTwoColsApps(AppsAtom));
 
 export const CartAmountAtom = atom(0);
-
 // Define the searchQueryAtom
 export const searchQueryAtom = atom("");
