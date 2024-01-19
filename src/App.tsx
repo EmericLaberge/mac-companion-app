@@ -16,8 +16,7 @@ const App: React.FC = () => (
     <NavBar />
     <Routes>
 
-      <Route path="/" element={<Home />} />
-      <Route path="/ListOfApps" element={<ListOfApps />} />
+      <Route path="/" element={<ListOfApps />} />
       <Route path="/Setup" element={<Setup />} />
       <Route path="/Terminal" element={<Terminal />} />
       <Route path="/About" element={<About />} />

@@ -21,15 +21,16 @@ interface AppCardProps {
   image: string;
   link: string;
   brewFormula: string;
+  isAdded: boolean;
+  toggleAdded: (brewFormula: string) => void;
 }
 const AppCard = (props: AppCardProps) => {
-  const { name, description, image, link, brewFormula } = props;
+  const { name, description, image, link, brewFormula, isAdded, toggleAdded } = props;
   const [brew, setBrew] = useAtom(DownloadScriptsAtom);
   const [cartNumber, setCartNumber] = useAtom(CartAmountAtom);
-  const [appAdded, setAppAdded] = useState(false);
   const handleAdd = () => {
   // add the formula to the brew array
-  if (brew.find((brewFormula) => brewFormula === brewFormula)) {
+  if (isAdded) {
     // alert("Already in cart!");
   }
   else {
@@ -37,7 +38,7 @@ const AppCard = (props: AppCardProps) => {
     newBrew.push(brewFormula);
     setBrew(newBrew);
     setCartNumber(cartNumber + 1);
-    setAppAdded(true);
+    toggleAdded(brewFormula);
     console.log(brew);
   }
 }
@@ -48,7 +49,7 @@ const handleRemove = () => {
     newBrew.splice(brew.indexOf(brewFormula), 1);
     setBrew(newBrew);
     setCartNumber(cartNumber - 1);
-    setAppAdded(false);
+    toggleAdded(brewFormula);
     console.log(brew);
 }
 
@@ -71,7 +72,7 @@ const handleRemove = () => {
           </Button>
 
           
-          {appAdded ? (
+          {isAdded ? (
             <Button size="small" color="primary" rel="noopener noreferrer"
             variant="contained" className="float-right justify-around align-items-center p-2"
             style={{backgroundColor: "red", color: "#FFFFFF",borderRadius: "8px"}} 
