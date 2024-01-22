@@ -5,6 +5,7 @@ import { useAtom } from 'jotai';
 import { alternateAppsAtom, AppsAtom } from './atoms';
 import SearchBar from "material-ui-search-bar";
 import { Typography } from '@mui/material';
+import Grid from '@mui/material/Grid';
 
 
 const ListOfApps: React.FC = () => {
@@ -52,8 +53,10 @@ const ListOfApps: React.FC = () => {
         />
       </div>
       {filteredApps.length > 1 && (
-        <div className="columns-2">
+        // <div className="columns-2">
+        <Grid container spacing={2}>
           {filteredApps.map((app) => (
+          <Grid item xs={12} sm={12} md={12} lg={6} xl={6}>
             <div key={app.name} className="mt-4 flex justify-center break-inside-avoid"
             >
               <AppCard
@@ -67,8 +70,10 @@ const ListOfApps: React.FC = () => {
 
               />
             </div>
+          </Grid>
           ))}
-        </div>
+        </Grid>
+        // </div>
       )}
       {filteredApps.length === 1 && (
         <div className="flex justify-center break-inside-avoid my-4">
