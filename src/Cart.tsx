@@ -32,7 +32,7 @@ const Cart: React.FC = () => {
     let followingScript = "brew update";
     apps.forEach((app) => {
       if (app.isAdded && app.brewFormula.trim() !== "") {
-        followingScript += `&& ${app.brewFormula}`;
+        followingScript += ` && ${app.brewFormula}`;
       }
     }
     );
