@@ -9,9 +9,7 @@ import { alternateAppsAtom, AppsAtom } from './atoms';
 import SearchBar from "material-ui-search-bar";
 import CartList from './Components/CartList/Cartlist';
 import Button from '@mui/material/Button';
-import { useEffect } from 'react';
-import { toast } from 'react-toastify';
-
+import { CopyBlock, dracula } from 'react-code-blocks';
 
 const Cart: React.FC = () => {
   const [formulaes] = useAtom(DownloadScriptsAtom)
@@ -29,15 +27,20 @@ const Cart: React.FC = () => {
 
 
   const generateBrew = () => {
-    let followingScript = "brew update";
-    apps.forEach((app) => {
-      if (app.isAdded && app.brewFormula.trim() !== "") {
-        followingScript += ` ; ${app.brewFormula}`;
-      }
-    }
-    );
+    // Keep only the apps that are added and have a brew formula  and keep only the brew formula
+    let brewFormulaes = apps.filter((app) => app.isAdded && app.brewFormula.trim() !== "").map((app) => app.brewFormula);
+    // Join the brew formulaes with a ; to make it a single command 
+    let oneCommand = brewFormulaes.join(" ; ");
+    oneCommand = "brew update ; " + oneCommand;
+    console.log(oneCommand);
+    return oneCommand;
+  }
 
-    return followingScript;
+  const displayBrew = () => {
+    let brewScript = generateBrew();
+    // Add a line separation at the end of each ; to make it more readable 
+    brewScript = brewScript.replace(/; /g, ";\n");
+    return brewScript;
   }
 
   const copyToClipboard = () => {
@@ -63,7 +66,13 @@ const Cart: React.FC = () => {
       </Typography>
 
       <CartList />
-      <Button variant="contained" color='success' className="mt-2" onClick={copyToClipboard}>Copy to Clipboard</Button>
+      <Button variant="contained" color='success' className="my-2" onClick={copyToClipboard}>Copy to Clipboard</Button>
+      <CopyBlock
+        text={displayBrew()}
+        language={'bash'}
+        showLineNumbers={false}
+        theme={dracula}
+      />
     </div>
   );
 };
